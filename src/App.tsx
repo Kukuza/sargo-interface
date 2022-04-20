@@ -6,10 +6,11 @@ function App() {
       <header className="App-header">
         <p>
          Wakala
-        </p>
+                 </p>
       </header>
     </div>
   );
 }
+
 
 export default App;
