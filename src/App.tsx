@@ -1,13 +1,9 @@
 import React from 'react';
-
+import DepositRequestCard from './components/cards/DepositRequestCard';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-         Wakala
-        </p>
-      </header>
+    <div>
+      <DepositRequestCard/>
     </div>
   );
 }
