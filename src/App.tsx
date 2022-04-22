@@ -1,14 +1,17 @@
 import React from 'react';
+import { Button } from "./components/Button";
+import Globalstyles from "./styles/globalstyles";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-         Wakala
-                 </p>
-      </header>
-    </div>
+   
+      <div>
+        <Button>BUTTON</Button>
+        <Button color="secondary">CLICK HERE</Button>
+        <Button disabled={true}>DISABLED</Button>
+      </div>
+    
+    
   );
 }
 
