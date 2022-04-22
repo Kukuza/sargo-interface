@@ -3,11 +3,15 @@ import React from 'react'
 function DepositRequestCard() {
   return (
     <div className="p-10 min-h-screen flex items-center justify-center bg-cool-gray-700">
-        <h1 className="text-9xl font-black text-white text-center">
-          <span className="bg-gradient-to-r text-transparent bg-clip-text from-green-400 to-purple-500">
+        <h1>Wakala Web APP</h1>
+        <h2>Wakala Web APP</h2>
+        <h3>Wakala Web APP</h3>
+        <h4>Wakala Web APP</h4>
+        <h5>Wakala Web APP</h5>
+        <p className="body3">
             Deposit Request Card
-          </span>
-        </h1>
+        </p>
+        
       </div>
   )
 }
