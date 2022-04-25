@@ -13,10 +13,13 @@
     "@types/react": "^18.0.5",
     "@types/react-dom": "^18.0.1",
     "npm-run-all": "^4.1.5",
+    "prop-types": "^15.8.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-scripts": "5.0.1",
+    "tw-components": "^1.0.8",
     "typescript": "^4.6.3",
+    "vite": "^2.9.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -44,9 +47,12 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^9",
-    "postcss": "^7",
+    "@babel/generator": "^7.17.9",
+    "@types/babel__core": "^7.1.19",
+    "@types/babel__generator": "^7.6.4",
+    "autoprefixer": "^10.4.5",
+    "postcss": "^8.4.12",
     "postcss-cli": "^9.1.0",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+    "tailwindcss": "^3.0.24"
   }
 }
