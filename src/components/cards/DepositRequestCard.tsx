@@ -8,9 +8,9 @@ function DepositRequestCard() {
       <p className='body4 text-textDarker mt-[30px]'>Fee:</p>
       <h3 className='text-black mt-[5px]'>Ksh 10</h3>
       <hr className='mt-[10px]'/>
-        <p className='body4 text-textDarker mt-[30px]'>Total you Send</p>
+        <p className='body4 text-textDarker mt-[30px]'>Total you Send:</p>
         <h1 className='text-textColor4 mt-[5px]'>cUSD 10.00</h1>
-      <p className='s3 text-textPrimary mt-[50px]'>The Total amount will be sent from your wallet to the Wakala escrow account</p>
+      <p className='s5 text-textPrimary mt-[50px]'>The Total amount will be sent from your wallet to the Wakala escrow account</p>
     </div>
   )
 }
