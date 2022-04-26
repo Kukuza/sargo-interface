@@ -1,9 +1,9 @@
 import React from 'react';
-import DepositRequestCard from './components/cards/DepositRequestCard';
+import BalanceCard from './components/cards/BalanceCard';
 function App() {
   return (
     <div className="flex justify-center items-center p-[10px]">
-      <DepositRequestCard/>
+      <BalanceCard/>
     </div>
   );
 }
