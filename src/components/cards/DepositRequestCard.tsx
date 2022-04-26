@@ -1,5 +1,3 @@
-import React from 'react';
-
 function DepositRequestCard() {
   return (
     <div className="block h-[408px] w-[344px] cardGradient  rounded-2xl p-[10px]">

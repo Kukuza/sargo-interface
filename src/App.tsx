@@ -1,4 +1,3 @@
-import React from 'react';
 import DepositRequestCard from './components/cards/DepositRequestCard';
 import DefaultButton from './components/Buttons/DefaultButton';
 import "./components/Button/styles";
