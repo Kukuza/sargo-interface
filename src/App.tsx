@@ -1,10 +1,11 @@
 import React from 'react';
 import DepositRequestCard from './components/cards/DepositRequestCard';
 import DefaultButton from './components/Buttons/DefaultButton';
-import "./styles/colors/colors";
+import "./components/Button/styles";
+
 function App() {
   return (
-    <div className="flex justify-center items-center p-[10px]">
+    <div>
       <DepositRequestCard/>
       <div className="flex items-center justify-center h-screen">
       <DefaultButton

@@ -22,7 +22,7 @@ const outlineButtonClassNames =
 const disabledButtonClassNames =
   "bg-blue-500 text-white font-bold py-2 px-4 rounded opacity-50 cursor-not-allowed"
   return (
-    <div className="p-1">
+    <div className="p-1 bg-gradient-to-br from-bluish to-pinkish  text-white font-bold py-2 px-4 rounded-full h-[56px] w-[286px]">
       <button
         p-1={
             buttonStyle === "rounded"
