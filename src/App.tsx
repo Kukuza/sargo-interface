@@ -4,7 +4,7 @@ import DefaultButton from './components/Buttons/DefaultButton';
 import "./styles/colors/colors";
 function App() {
   return (
-    <div>
+    <div className="flex justify-center items-center p-[10px]">
       <DepositRequestCard/>
       <div className="flex items-center justify-center h-screen">
       <DefaultButton

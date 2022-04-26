@@ -62,6 +62,5 @@ export const COLORS = {
   
     wakalaModalLinearGradient: ["#F7EFFA", "#FCF8ED"],
   };
-  
-  export default COLORS;
+
   

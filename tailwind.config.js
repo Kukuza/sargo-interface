@@ -1,5 +1,4 @@
 const colors = require('tailwindcss/colors')
-
 module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   presets: [],
@@ -16,9 +15,41 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-
-      black: colors.black,
-      white: colors.white,
+      white: "#ffffff",
+      primary: "#4840BB",
+      accent1: "#133FDB",
+      secondary: "#DB86C7",
+      shadowColor: "#7a5dba",
+    
+      // Alerts
+      success: "#4840BB",
+      warning: "#F3BB1C",
+      error: "#EF8787",
+      warn: "#ba4848",
+    
+      // Gray Color variants
+      grayLightest1: "#CFCFCF",
+      grayLightest: "#A2A3A2",
+      grayLighter: "#808080",
+      grayLight: "#595959",
+      grayDark: "#404040",
+    
+      // Text color variants
+      textDarker: "#222222",
+      textPrimary: "#333333",
+      textDarkBlue: "#002B4E",
+      textColor2: "#1C1939CC",
+      textColor3: "#1C1939",
+      textColor4:"#4840BB",
+    
+      dividerLine:"#444444",
+      
+    
+      switchThumb:"#A2A3A2",
+      radioButton:"#133FDB",
+    
+      realBlack: "#000000",
+      
       gray: colors.coolGray,
       red: colors.red,
       yellow: colors.amber,
