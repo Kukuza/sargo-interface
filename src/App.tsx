@@ -1,9 +1,9 @@
 import React from 'react';
-import BalanceCard from './components/cards/BalanceCard';
+import ComingSoon from './components/modals/ComingSoon';
 function App() {
   return (
     <div className="flex justify-center items-center p-[10px]">
-      <BalanceCard/>
+      <ComingSoon/>
     </div>
   );
 }
