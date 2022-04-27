@@ -1,10 +1,10 @@
 import DepositRequestCard from './components/cards/DepositRequestCard';
 import DefaultButton from './components/Buttons/DefaultButton';
-import InactiveButton from './components/Buttons/InactiveButton';
 import "./components/Button/styles";
 import AddWithdrawalButton from './components/Buttons/AddWithdrawalButton';
 import SendButton from './components/Buttons/SendButton';
 import ViewButton from './components/Buttons/ViewButton';
+import GotItButton from './components/Buttons/GotItButton';
 
 function App() {
   return (
@@ -18,23 +18,7 @@ function App() {
           handleClick={() => console.log("Clicked!")} onClick={function (): void {
             throw new Error('Function not implemented.');
           } } name={''} children={undefined}      />
-        
-      <DefaultButton
-          text="View"
-          type="button"
-          buttonStyle="outline"
-          handleClick={() => console.log("Clicked!")} onClick={function (): void {
-            throw new Error('Function not implemented.');
-          } } name={''} children={undefined}      />
     
-      <InactiveButton 
-      text="Got It!"
-      type="button"
-      buttonStyle="disabled"
-      handleClick={() => console.log("Clicked!")} onClick={function (): void {
-        throw new Error('Function not implemented.');
-      } } name={''} children={undefined} 
-      />
       <AddWithdrawalButton
       text="Add/Withdrawal"
       type="button"
@@ -62,6 +46,15 @@ function App() {
       handleClick={() => console.log("Clicked!")} onClick={function (): void {
         throw new Error('Function not implemented.');
       } } name={''} children={undefined} 
+      />
+      <GotItButton 
+      text="Got It!"
+      type="button"
+      buttonStyle="disabled"
+      handleClick={() => console.log("Clicked!")} onClick={function (): void {
+        throw new Error('Function not implemented.');
+      } } name={''} children={undefined} 
+
       />
     
     </div>

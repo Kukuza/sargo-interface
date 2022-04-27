@@ -59,6 +59,8 @@ module.exports = {
       purple: colors.violet,
       pink: colors.pink,
       'pinkish': '#b7004c',
+      'pinkish2': '#E8C8DF',
+      'grayish': '#CCC6D2',
       'bluish': '#133fdb',
 
     },

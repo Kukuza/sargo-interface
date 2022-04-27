@@ -139,12 +139,16 @@
     .buttonGradient{
       background:linear-gradient(135deg,rgba(19, 63, 219, .03)rgba(183, 0, 76, 0.3))
     }
+    .buttonGradient2{
+      background:linear-gradient(135deg,rgba(232,200,223,1)rgba(204,198,210,1))
+    }
 
     .buttonText{
       display: inline-flex;
       justify-content: center;
       align-items: center;
       font-size: 15px;
+    
     }
 
   
