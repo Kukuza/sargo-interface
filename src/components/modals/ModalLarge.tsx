@@ -1,9 +1,9 @@
 import { Fragment, useRef, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
-import { COMING_SOON } from '../../images';
+import { CONNECTIVITY } from '../../images';
 
 
-const ComingSoon = () => {
+const ModalLarge = () => {
   const [open, setOpen] = useState(true);
 
   const cancelButtonRef = useRef(null);
@@ -37,10 +37,10 @@ const ComingSoon = () => {
         >
           <div className="wakalaModalGradient w-[320px] h-[416px] relative inline-block align-bottom rounded-2xl overflow-hidden shadow-2xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
            <div className='flex-col justify-center items-center p-[10px] '>
-                  <img className='m-[50px] ml-[40%] h-[87px] w-[90px]' src={COMING_SOON} alt="Coming_soon"/>
-                  <div className='body3 text-textPrimary font-bold'>Coming Soon</div>
+                  <img className='m-[50px] ml-[40%] h-[87px] w-[90px]' src={CONNECTIVITY} alt="Coming_soon"/>
+                  <div className='body3 text-textPrimary font-bold'>Oh Snap</div>
                     <h1 className=" mt-[30px] text-sm text-textPrimary">
-                        Stay put, we are very soon adding cash option.
+                        Something just happened. Try again later.
                     </h1>
               <button
                 type="button"
@@ -59,4 +59,4 @@ const ComingSoon = () => {
   )
 }
 
-export default ComingSoon
+export default ModalLarge

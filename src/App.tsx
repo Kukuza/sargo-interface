@@ -1,9 +1,9 @@
 import React from 'react';
-import ComingSoon from './components/modals/ComingSoon';
+import ModalLarge from './components/modals/ModalLarge';
 function App() {
   return (
     <div className="flex justify-center items-center p-[10px]">
-      <ComingSoon/>
+      <ModalLarge/>
     </div>
   );
 }
