@@ -37,7 +37,7 @@ const ModalLarge = () => {
         >
           <div className="wakalaModalGradient w-[320px] h-[416px] relative inline-block align-bottom rounded-2xl overflow-hidden shadow-2xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
            <div className='flex-col justify-center items-center p-[10px] '>
-                  <img className='m-[50px] ml-[40%] h-[87px] w-[90px]' src={CONNECTIVITY} alt="Coming_soon"/>
+                  <img className='my-[50px] ml-[30%] h-[130px] w-[130px] sm:ml-[30%]' src={CONNECTIVITY} alt="Coming_soon"/>
                   <div className='body3 text-textPrimary font-bold'>Oh Snap</div>
                     <h1 className=" mt-[30px] text-sm text-textPrimary">
                         Something just happened. Try again later.
