@@ -1,9 +1,9 @@
 import React from 'react';
-import ModalLarge from './components/modals/ModalLarge';
+import RequestViewCard from './components/cards/RequestViewCard';
 function App() {
   return (
     <div className="flex justify-center items-center p-[10px]">
-      <ModalLarge/>
+      <RequestViewCard/>
     </div>
   );
 }

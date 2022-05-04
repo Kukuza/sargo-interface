@@ -130,11 +130,12 @@
     .s5 {
       font-family:Rubik;
       font-weight:400;
-      font-size: 5;
+      font-size:13px;
       line-height:1rem;
     }
     .cardGradient {
      background:linear-gradient(135deg, rgba(255, 140, 161, 0.08),rgba(252, 207, 47, 0.08),rgba(255, 255, 255, 0.08),rgba(248, 48, 180, 0.08),rgba(47, 68, 252, 0.08));
+     elevation: 5px;
     }
     .wakalaModalGradient {
       background:linear-gradient(to left,#F7EFFA,#FCF8ED);
