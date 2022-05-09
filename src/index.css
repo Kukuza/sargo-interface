@@ -136,4 +136,16 @@
     .cardGradient {
      background:linear-gradient(135deg, rgba(255, 140, 161, 0.08),rgba(252, 207, 47, 0.08),rgba(255, 255, 255, 0.08),rgba(248, 48, 180, 0.08),rgba(47, 68, 252, 0.08));
     }
+    .screenGradient {
+      background:linear-gradient(135deg,#F7EFFA, #FCF8ED);
+    }
+    .keypadColor {
+      background-color:transparent;
+    }
+    .keypadColorHover {
+      background-color:rgba(247, 239, 250, 1);
+    }
+    .buttonGradient {
+      background:linear-gradient(-90deg,rgba(183, 0, 76, 0.3), rgba(19, 63, 219, 1));
+    }
 }
