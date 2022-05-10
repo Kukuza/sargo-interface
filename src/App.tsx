@@ -1,9 +1,9 @@
 import React from 'react';
-import RequestViewCard from './components/cards/RequestViewCard';
+import ThankyouModal from './components/modals/ThankyouModal';
 function App() {
   return (
     <div className="flex justify-center items-center p-[10px]">
-      <RequestViewCard/>
+      <ThankyouModal/>
     </div>
   );
 }
