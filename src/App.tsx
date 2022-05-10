@@ -1,6 +1,5 @@
 import React from 'react';
 import SwipeButton from './components/buttons/SwipeButton';
-
 function App() {
   function onSucess (){
     alert("Sucess")
