@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react';
 import { FiDelete } from "react-icons/fi";
-import DefaultButton from './DefaultButton';
 
 function Keypad(props: any) {
     const [value, setValue] = useState("");
@@ -60,7 +59,6 @@ function Keypad(props: any) {
         </div>             
         </div>
         <div onClick={() => alert(value)} className='mt-[30px]'>
-        <DefaultButton/>
         </div>
     </div>
   )
