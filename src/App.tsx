@@ -1,12 +1,18 @@
 import React from 'react';
-import 'react-circular-progressbar/dist/styles.css';
-import CircularProgress from './components/buttons/CircularProgress';
+import Copy from './components/buttons/Copy';
+import SendButton from './components/buttons/SendButton';
+import WithdrawButton from './components/buttons/WithdrawButton';
+import CancelModal from './components/modals/CancelModal';
+
 
 function App() {
 
   return (
     <div className="flex justify-center items-center p-[10px]">
-      <CircularProgress/>
+      <SendButton/>
+      <WithdrawButton/>
+      <Copy/>
+      <CancelModal/>
     </div>
   );
 }

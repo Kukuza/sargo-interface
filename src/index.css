@@ -35,15 +35,21 @@
 @layer components {
   
     .sh1 {
-      font-family:Rubik;
-      font-weight:500;
-      font-size: 20;
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 150%;
+      text-align: center;
     }
   
     .sh2 {
-      font-family:Rubik;
-      font-weight:500;
-      font-size: 20;
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 150%;
+      text-align: center;
     }
   
     .body1 {
@@ -88,9 +94,12 @@
     }
   
     .body8 {
-      font-family:Rubik;
-      font-weight:500;
-      font-size: 12;
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 150%;
+      text-align: center;
     }
   
     .body9 {
@@ -154,5 +163,19 @@
     }
     .onboardGradient {
       background:linear-gradient(180deg,rgba(183, 0, 76, 0.3), rgba(19, 63, 219, 1));
+    }
+    .sendButton {
+      background: linear-gradient(84.29deg, #133FDB 9.09%, rgba(20, 63, 218, 0.994943) 57.54%, rgba(183, 0, 77, 0.3) 159.2%);
+      box-shadow: 0px 3.04865px 22.8649px rgba(19, 63, 219, 0.25);
+    }
+    .withDrawButton {
+      background: linear-gradient(130.01deg, #133FDB -19.11%, rgba(183, 0, 77, 0.3) 102.16%);
+      box-shadow: 0px 3.04865px 22.8649px rgba(19, 63, 219, 0.25);
+    }
+    .copyButton{
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.12);
+    }
+    .buttonInactive {
+      background: linear-gradient(269.71deg, #E8C8DF 31.22%, #CCC6D2 81.97%);
     }
 }
