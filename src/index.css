@@ -178,4 +178,12 @@
     .buttonInactive {
       background: linear-gradient(269.71deg, #E8C8DF 31.22%, #CCC6D2 81.97%);
     }
+    .footerGrid {
+        display: grid;
+        grid-template-columns: 1fr 1.2fr;
+        gap: 10px 10px;
+        grid-auto-flow: row;
+      
+      
+    }
 }
