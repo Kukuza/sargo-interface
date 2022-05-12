@@ -17,9 +17,11 @@
         font-size: 24;
       }
       h3 {
-        font-family:Rubik;
-        font-weight:400;
-        font-size: 24;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 150%;
       }
       h4 {
         font-family:Rubik;
@@ -64,15 +66,19 @@
     }
   
     .body3 {
-      font-family:Rubik;
-      font-weight:500;
-      font-size: 16;
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 150%;
     }
   
     .body4 {
-      font-family:Rubik;
-      font-weight:400;
-      font-size: 16;
+      font-family: 'Rubik';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
     }
   
     .body5 {
@@ -114,7 +120,13 @@
       font-weight:400;
       font-size: 14;
     }
-  
+  .heading3 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+  }
 
     .s1 {
       font-family:Rubik;
@@ -141,6 +153,13 @@
       font-weight:400;
       font-size:13px;
       line-height:1rem;
+    }
+    .display1 {
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 150%;
     }
     .cardGradient {
      background:linear-gradient(135deg, rgba(255, 140, 161, 0.08),rgba(252, 207, 47, 0.08),rgba(255, 255, 255, 0.08),rgba(248, 48, 180, 0.08),rgba(47, 68, 252, 0.08));
