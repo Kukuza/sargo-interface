@@ -140,4 +140,7 @@
     .wakalaModalGradient {
       background:linear-gradient(to left,#F7EFFA,#FCF8ED);
     }
+    .buttonGradient {
+      background: linear-gradient(93.46deg, #133FDB 0%, rgba(183, 0, 77, 0.3) 103.75%);
+    }
 }
