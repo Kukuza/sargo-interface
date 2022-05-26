@@ -20,6 +20,7 @@ export const COLORS = {
     grayDark: "#404040",
   
     // Text color variants
+    textBlack:"#111111",
     textDarker: "#222222",
     textPrimary: "#333333",
     textDarkBlue: "#002B4E",
@@ -54,7 +55,7 @@ export const COLORS = {
     //TODO Other Gradients
     // gradientDark:["rgba(183, 0, 76, 0.3)", "rgba(19, 63, 219, 1)"]
   
-    wakalaModalLinearGradient: ["#F7EFFA", "#FCF8ED"],
+    kukuzaModalLinearGradient: ["#F7EFFA", "#FCF8ED"],
   };
 
   
