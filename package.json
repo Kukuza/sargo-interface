@@ -1,8 +1,8 @@
 {
-  "name": "wakala-web-app",
+  "name": "p2p-ramp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kukuza.github.io/wakala-web-app/",
+  "homepage": "https://kukuza.github.io/p2p-ramp/",
   "dependencies": {
     "@craco/craco": "^6.4.3",
     "@fullhuman/postcss-purgecss": "^4.1.3",
