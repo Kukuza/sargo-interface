@@ -35,7 +35,7 @@ const ThankyouModal = () => {
           leaveFrom="opacity-100 translate-y-0 sm:scale-100"
           leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
         >
-          <div className="wakalaModalGradient w-[320px] h-[416px] relative inline-block align-bottom rounded-2xl overflow-hidden shadow-2xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
+          <div className="kukuzaModalGradient w-[320px] h-[416px] relative inline-block align-bottom rounded-2xl overflow-hidden shadow-2xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
            <div className='flex-col justify-center items-center p-[10px] pt-[35%]'>
                  <IoCheckmarkCircle
                  className="self-center m-auto"

@@ -10,7 +10,7 @@ function DepositRequestCard() {
       <hr className='mt-[20px]'/>
         <p className='body4 text-textDarker mt-[30px]'>Total you Send:</p>
         <h1 className='text-textColor4 mt-[5px]'>cUSD 10.00</h1>
-      <p className='s5 text-textPrimary mt-[50px]'>The Total amount will be sent from your wallet to the Wakala escrow account.</p>
+      <p className='s5 text-textPrimary mt-[50px]'>The Total amount will be sent from your wallet to the P2p-ramp escrow account.</p>
     </div>
   )
 }

@@ -1,9 +1,7 @@
 import { Fragment, useRef, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
-import { COMING_SOON } from '../../images';
 
-
-const ComingSoon = () => {
+const CancelModal = () => {
   const [open, setOpen] = useState(true);
 
   const cancelButtonRef = useRef(null);
@@ -35,21 +33,28 @@ const ComingSoon = () => {
           leaveFrom="opacity-100 translate-y-0 sm:scale-100"
           leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
         >
-          <div className="kukuzaModalGradient w-[320px] h-[416px] relative inline-block align-bottom rounded-2xl overflow-hidden shadow-2xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
-           <div className='flex-col justify-center items-center p-[10px] '>
-                  <img className='m-[50px] ml-[40%] h-[87px] w-[90px]' src={COMING_SOON} alt="Coming_soon"/>
-                  <div className='body3 text-textPrimary font-bold'>Coming Soon</div>
-                    <h1 className=" mt-[30px] text-sm text-textPrimary">
-                        Stay put, we are very soon adding cash option.
-                    </h1>
+          <div className="kukuzaModalGradient w-[327px] h-[252px] p-[20] relative inline-block align-bottom rounded-2xl overflow-hidden shadow-2xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
+           <div className='flex-col justify-center items-center p-[10px] m-auto '>
+                  <div className='mt-[20%] sh2 w-[100%] h-[80%] text-textPrimary font-bold m-auto'>Do you want to disconnect the wallet?</div>
+              <div className='flex justify-evenly items-center'>
               <button
                 type="button"
-                className="sh1 h-[20px] w-[105px] mt-[60px] inline-flex justify-center px-4 py-2 font-large text-accent1 focus:outline-none"
+                className="sh1 h-[20px] w-[105px] mt-[60px] inline-flex justify-center px-4 py-2 font-large text-textPrimary focus:outline-none"
                 onClick={() => setOpen(false)}
                 ref={cancelButtonRef}
               >
-                Dismiss
+                Cancel
               </button>
+              <button
+                type="button"
+                className="sh1 h-[20px] w-[105px] mt-[60px] inline-flex justify-center px-4 py-2 font-large text-error focus:outline-none"
+                onClick={() => setOpen(false)}
+                ref={cancelButtonRef}
+              >
+                Continue
+              </button>
+              </div>
+              
               </div>
           </div>
         </Transition.Child>
@@ -59,4 +64,4 @@ const ComingSoon = () => {
   )
 }
 
-export default ComingSoon
+export default CancelModal

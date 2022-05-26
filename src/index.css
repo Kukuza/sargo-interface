@@ -17,9 +17,11 @@
         font-size: 24;
       }
       h3 {
-        font-family:Rubik;
-        font-weight:400;
-        font-size: 24;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 150%;
       }
       h4 {
         font-family:Rubik;
@@ -35,15 +37,21 @@
 @layer components {
   
     .sh1 {
-      font-family:Rubik;
-      font-weight:500;
-      font-size: 20;
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 150%;
+      text-align: center;
     }
   
     .sh2 {
-      font-family:Rubik;
-      font-weight:500;
-      font-size: 20;
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 150%;
+      text-align: center;
     }
   
     .body1 {
@@ -58,15 +66,19 @@
     }
   
     .body3 {
-      font-family:Rubik;
-      font-weight:500;
-      font-size: 16;
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 150%;
     }
   
     .body4 {
-      font-family:Rubik;
-      font-weight:400;
-      font-size: 16;
+      font-family: 'Rubik';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
     }
   
     .body5 {
@@ -88,9 +100,12 @@
     }
   
     .body8 {
-      font-family:Rubik;
-      font-weight:500;
-      font-size: 12;
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 150%;
+      text-align: center;
     }
   
     .body9 {
@@ -105,7 +120,13 @@
       font-weight:400;
       font-size: 14;
     }
-  
+  .heading3 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+  }
 
     .s1 {
       font-family:Rubik;
@@ -133,11 +154,55 @@
       font-size:13px;
       line-height:1rem;
     }
+    .display1 {
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 150%;
+    }
     .cardGradient {
      background:linear-gradient(135deg, rgba(255, 140, 161, 0.08),rgba(252, 207, 47, 0.08),rgba(255, 255, 255, 0.08),rgba(248, 48, 180, 0.08),rgba(47, 68, 252, 0.08));
      elevation: 5px;
     }
-    .wakalaModalGradient {
+    .kukuzaModalGradient {
       background:linear-gradient(to left,#F7EFFA,#FCF8ED);
+    }
+    .screenGradient {
+      background:linear-gradient(135deg,#F7EFFA, #FCF8ED);
+    }
+    .keypadColor {
+      background-color:transparent;
+    }
+    .keypadColorHover {
+      background-color:rgba(247, 239, 250, 1);
+    }
+    .buttonGradient {
+      background:linear-gradient(-90deg,rgba(183, 0, 76, 0.3), rgba(19, 63, 219, 1));
+    }
+    .onboardGradient {
+      background:linear-gradient(180deg,rgba(183, 0, 76, 0.3), rgba(19, 63, 219, 1));
+    }
+    .sendButton {
+      background: linear-gradient(84.29deg, #133FDB 9.09%, rgba(20, 63, 218, 0.994943) 57.54%, rgba(183, 0, 77, 0.3) 159.2%);
+      box-shadow: 0px 3.04865px 22.8649px rgba(19, 63, 219, 0.25);
+    }
+    .withDrawButton {
+      background: linear-gradient(130.01deg, #133FDB -19.11%, rgba(183, 0, 77, 0.3) 102.16%);
+      box-shadow: 0px 3.04865px 22.8649px rgba(19, 63, 219, 0.25);
+    }
+    .copyButton{
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.12);
+    }
+    .buttonInactive {
+      background: linear-gradient(269.71deg, #E8C8DF 31.22%, #CCC6D2 81.97%);
+    }
+    .footerGrid {
+        display: grid;
+        grid-template-columns: 1fr 1.2fr;
+        gap: 10px 10px;
+        grid-auto-flow: row;
+      
+      
     }
 }
