@@ -33,7 +33,7 @@ const CancelModal = () => {
           leaveFrom="opacity-100 translate-y-0 sm:scale-100"
           leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
         >
-          <div className="wakalaModalGradient w-[327px] h-[252px] p-[20] relative inline-block align-bottom rounded-2xl overflow-hidden shadow-2xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
+          <div className="kukuzaModalGradient w-[327px] h-[252px] p-[20] relative inline-block align-bottom rounded-2xl overflow-hidden shadow-2xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
            <div className='flex-col justify-center items-center p-[10px] m-auto '>
                   <div className='mt-[20%] sh2 w-[100%] h-[80%] text-textPrimary font-bold m-auto'>Do you want to disconnect the wallet?</div>
               <div className='flex justify-evenly items-center'>

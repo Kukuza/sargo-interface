@@ -10,7 +10,7 @@ function Footer() {
             <LOGO/>
             </div>
             <div className='body4 text-textDarkBlue my-[5%] lg:heading3 '>Nothing herein constitutes an offer to sell, or the solicitation of an offer to buy, any securities or tokens.</div>
-            <div className='body4 text-textDarkBlue lg:heading3'>Read more in <span className='text-accent1 hover:cursor-pointer' >Wakala Terms of Service.</span></div>
+            <div className='body4 text-textDarkBlue lg:heading3'>Read more in <span className='text-accent1 hover:cursor-pointer' >Kukuza Terms of Service.</span></div>
             <div className='hidden body3 text-textPrimary mt-[40%]'>© Kukuza 2022. All rights reserved</div>
         </div>
         <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4' >

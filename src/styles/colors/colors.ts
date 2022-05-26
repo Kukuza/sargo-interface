@@ -55,7 +55,7 @@ export const COLORS = {
     //TODO Other Gradients
     // gradientDark:["rgba(183, 0, 76, 0.3)", "rgba(19, 63, 219, 1)"]
   
-    wakalaModalLinearGradient: ["#F7EFFA", "#FCF8ED"],
+    kukuzaModalLinearGradient: ["#F7EFFA", "#FCF8ED"],
   };
 
   

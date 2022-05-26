@@ -35,7 +35,7 @@ const ComingSoon = () => {
           leaveFrom="opacity-100 translate-y-0 sm:scale-100"
           leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
         >
-          <div className="wakalaModalGradient w-[320px] h-[416px] relative inline-block align-bottom rounded-2xl overflow-hidden shadow-2xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
+          <div className="kukuzaModalGradient w-[320px] h-[416px] relative inline-block align-bottom rounded-2xl overflow-hidden shadow-2xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
            <div className='flex-col justify-center items-center p-[10px] '>
                   <img className='m-[50px] ml-[40%] h-[87px] w-[90px]' src={COMING_SOON} alt="Coming_soon"/>
                   <div className='body3 text-textPrimary font-bold'>Coming Soon</div>
