@@ -34,6 +34,7 @@ module.exports = {
       grayDark: "#404040",
     
       // Text color variants
+      textBlack:"#111111",
       textDarker: "#222222",
       textPrimary: "#333333",
       textDarkBlue: "#002B4E",
