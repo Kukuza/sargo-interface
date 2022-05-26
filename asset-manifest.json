@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.3f86937f.css",
-    "main.js": "/static/js/main.280b5a76.js",
-    "index.html": "/index.html",
-    "main.3f86937f.css.map": "/static/css/main.3f86937f.css.map",
-    "main.280b5a76.js.map": "/static/js/main.280b5a76.js.map"
+    "main.css": "/wakala-web-app/static/css/main.3f86937f.css",
+    "main.js": "/wakala-web-app/static/js/main.96ba68a2.js",
+    "index.html": "/wakala-web-app/index.html",
+    "main.3f86937f.css.map": "/wakala-web-app/static/css/main.3f86937f.css.map",
+    "main.96ba68a2.js.map": "/wakala-web-app/static/js/main.96ba68a2.js.map"
   },
   "entrypoints": [
     "static/css/main.3f86937f.css",
-    "static/js/main.280b5a76.js"
+    "static/js/main.96ba68a2.js"
   ]
 }
