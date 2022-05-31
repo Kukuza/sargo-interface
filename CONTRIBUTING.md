@@ -1,5 +1,5 @@
 Kukuza is a mobile-first micro-investing and loans community for small, local groups in emerging markets.
-Our focus is building a DAO on [Celo](https://celo.org/) owned by the community. Interested in making Kukuza project better? Thank you for considering contributing!
+Our focus is building a DAO on [Celo](https://celo.org/) owned by the community. Interested in making Kukuza project better? Thank you for considering to contribute!
 This guide will outline how to submit changes to this repository and the conventions that follow. We are all about community and therefore, we encourage open collaboration across the entire software development lifecycle. 
 
 For questions, help, or chat, reach out [via Discord](https://discord.gg/85d6NCXzyM).
@@ -26,10 +26,9 @@ All our PRs will go through a review process. We, therefore, recommend that you 
 We commit to acting and interacting in ways that promote a welcome, healthy community. We are open to constructive feedback that adds value to the overall community.
 
 ## Getting Help
-Join our [Discord community](https://discord.gg/85d6NCXzyM) if you need help getting set up.
+Join our [Discord community](https://discord.gg/85d6NCXzyM) if you need help getting set up or show us some love on [Twitter].
 
 ### Resources
 - [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
-- [Code of Conduct]() to follow when communicating and contributing to this repository.
 - [License](https://github.com/Kukuza/p2p-ramp/blob/dev/LICENSE)
 - [Working with branches](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-and-deleting-branches-within-your-repository).
