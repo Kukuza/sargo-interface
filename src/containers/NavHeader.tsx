@@ -4,7 +4,7 @@ import MobileMenu from '../components/menu/MobileMenu'
 function NavHeader() {
   return (
     <header className='w-full relative'>
-    <div className='flex flex-col md:flex-row justify-between items-start md:items-center py-6 mx-6'>
+    <div className='flex flex-col md:flex-row justify-between items-start gap-3 md:items-center py-6 mx-6'>
       <div>
       <a href='/' className='text-3xl text-primary font-medium'>wakala</a>
       </div>
