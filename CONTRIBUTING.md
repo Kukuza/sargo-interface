@@ -26,7 +26,7 @@ All our PRs will go through a review process. We, therefore, recommend that you 
 We commit to acting and interacting in ways that promote a welcome, healthy community. We are open to constructive feedback that adds value to the overall community.
 
 ## Getting Help
-Join our [Discord community](https://discord.gg/85d6NCXzyM) if you need help getting set up or show us some love on [Twitter].
+Join our [Discord community](https://discord.gg/85d6NCXzyM) if you need help getting set up or show us some love on [Twitter](https://twitter.com/KukuzaDAO).
 
 ### Resources
 - [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
